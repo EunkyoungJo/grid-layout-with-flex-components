@@ -54,3 +54,10 @@ body {
     flex-grow: 1;
     margin-bottom: 1rem;
 }
+
+/* style and align the button to the bottom */
+.emoji a {
+    display: block;
+    text-align: center;
+    margin-top: auto;
+}
