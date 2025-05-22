@@ -68,6 +68,6 @@ body {
 .emoji a {
     order: 4;
     display: block;
-    text-align: center;
+    text-align: left;
     margin-top: auto;
 }
