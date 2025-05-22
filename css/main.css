@@ -59,12 +59,14 @@ body {
 
 /* make the paragraph grow to fill space */
 .emoji p {
+    order: 3;
     flex-grow: 1;
     margin-bottom: 1rem;
 }
 
 /* style and align the button to the bottom */
 .emoji a {
+    order: 4;
     display: block;
     text-align: center;
     margin-top: auto;
