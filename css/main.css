@@ -10,6 +10,14 @@ main {
     margin: 0 auto;
 }
 
+/* center the header title and add spacing below it */
+.siteheader {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
 .emoji {
   border: 1px solid #222;
   border-radius: 8px;
@@ -39,7 +47,7 @@ main {
 .emojis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 3rem 1rem;
 }
 
 /* make each card a flex container */
