@@ -25,3 +25,12 @@ body {
 .icon {
   font-size: 4rem;
 }
+
+/* layout & positioning */
+
+/* grid layout for the emoji cards */
+.emojis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
