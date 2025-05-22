@@ -43,3 +43,8 @@ body {
     height: 100%;
 }
 
+/* style for the card title */
+.emoji h2 {
+    margin-bottom: o.5rem;
+    padding-bottom: 0.5rem;
+}
