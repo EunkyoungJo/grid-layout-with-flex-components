@@ -61,6 +61,7 @@ main {
 /* style for the card title */
 .emoji h2 {
     order: 2;
+    font-weight: bolder;
     margin-bottom: o.5rem;
     padding-bottom: 0.5rem;
 }
@@ -76,6 +77,7 @@ main {
 .emoji p {
     order: 3;
     flex-grow: 1;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 
