@@ -48,3 +48,9 @@ body {
     margin-bottom: o.5rem;
     padding-bottom: 0.5rem;
 }
+
+/* make the paragraph grow to fill space */
+.emoji p {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
