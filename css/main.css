@@ -45,8 +45,16 @@ body {
 
 /* style for the card title */
 .emoji h2 {
+    order: 2;
     margin-bottom: o.5rem;
     padding-bottom: 0.5rem;
+}
+
+/* reorder elements using flex order */
+.icon {
+    order: 1;
+    text-align: center;
+    margin: 10px 0;
 }
 
 /* make the paragraph grow to fill space */
