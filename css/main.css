@@ -1,6 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
+  padding: 2rem; /* adds outer spacing around the whole page */
+}
+
+/* center the main content and limit its maximum width */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .emoji {
